@@ -1,0 +1,168 @@
+<style>
+/* CALENDAR */
+#calendarBlock {
+    border:1px solid orange;
+    width: 390px;
+}
+
+.weekdaysList {
+    background-color: rgb(228, 225, 225);
+}
+
+.weekdaysList li{
+    display: inline-block;
+    width: 10.3%;
+ 
+}
+
+.daysList li{
+    list-style-type: none;
+    display: inline-block;
+    width: 9.8%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+/* .daysList li button:hover {
+    outline: 2px solid blue;
+} */
+
+#calendarBlock button{
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+}
+
+.monthBlock .prev {
+    float: left;
+    padding-top: 10px;
+}
+  
+.monthBlock .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.monthBlock ul li {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.monthBlock {  
+    width: 390px;
+    background: #a9fdec;
+    text-align: center;
+}
+
+  .monthBlock ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #mealPlanTitle {
+    text-align: center;
+    background-color: rgb(236, 193, 112);
+    margin: 0px;
+  }
+
+.dayStatus {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.dayStatus li{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#selectedStatus {
+    width: 15px;
+    height: 15px;
+    border: 2px solid red;
+    display: inline-block  ;
+}
+
+#plannedStatus {
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.selectedButton {
+    border: 1px solid blue;
+}
+</style>
+
+<!-- *************START CALENDAR******************* -->
+<div id="calendarBlock">
+
+    <div class="monthBlock">      
+        <ul>
+            <li class="prev"><button>&#10094;</button></li>
+            <li class="next"><button>&#10095;</button></li>
+            <li id="month">
+                March
+            </li>
+            <li id="year">
+                2021
+            </li>
+        </ul>
+    </div>
+  
+    <ul class="weekdaysList">
+        <li>Mo</li>
+        <li>Tu</li>
+        <li>We</li>
+        <li>Th</li>
+        <li>Fr</li>
+        <li>Sa</li>
+        <li>Su</li>
+    </ul>
+  
+    <ul class="daysList">  
+        <li><button>1</button></li>
+        <li><button>2</button></li>
+        <li><button>3</button></li>
+        <li><button>4</button></li>
+        <li><button>5</button></li>
+        <li><button>6</button></li>
+        <li><button>7</button></li><br>
+        <li><button>8</button></li>
+        <li><button>9</button></li>
+        <li><button>10</button></li>
+        <li><button>11</button></li>
+        <li><button>12</button></li>
+        <li><button>13</button></li>
+        <li><button>14</button></li><br>
+        <li><button>15</button></li>
+        <li><button>16</button></li>
+        <li><button>17</button></li>
+        <li><button>18</button></li>
+        <li><button>19</button></li>
+        <li><button>20</button></li>
+        <li><button>21</button></li><br>
+        <li><button>22</button></li>
+        <li><button>23</button></li>
+        <li><button>24</button></li>
+        <li><button>25</button></li>
+        <li><button>26</button></li>
+        <li><button>27</button></li>
+        <li><button>28</button></li><br>
+        <li><button>29</button></li>
+        <li><button>30</button></li>
+        <li><button>31</button></li>
+    </ul>
+</div>
+
+<div id="mealPlanTitle">
+    <p>MEAl PLANS</p>
+</div>
+
+<!-- *************END CALENDAR******************* -->
