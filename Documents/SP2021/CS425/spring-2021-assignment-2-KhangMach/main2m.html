@@ -281,14 +281,7 @@
                     <p>Boil  the chick </p>
                     <button id = "cancel_chick2" onclick="go_delete(this)" >CANCEL</button>
                 </div>
-                
-                <div content="outer" id="popup_chick3"> 
-                    <img src = "image_v1/chick3.jpeg" ></img>
-                    <p >Beef taraki</p> 
-                    <p>Hot sauce with taraki</p>
-                    <button id = "cancel_chick3" onclick="go_delete(this)" >CANCEL</button>
-                </div>
-
+    
                 <div content="outer" id="popup_beef1"> 
                     <img src = "image_v1/beef1.jpeg"></img>
                     <p >Beef medium</p> 
@@ -714,12 +707,12 @@
             <!-- *************END CALENDAR******************* -->
             <div class="plan_day"> 
                 <div class= "tri2">
-                <p >PROTEIN <ins id ="protein">0</ins> </p>
-                <p  >SODIUM <ins id="sodium">0</ins></p>
+                <p >PROTEIN <ins id ="protein">0</ins> g</p>
+                <p  >SODIUM <ins id="sodium">0</ins> g</p>
                 </div>
                 <div class= "tri2"> 
-                <p >FAT <ins id="fat">0</ins> </p>
-                <p >VITAMIN <ins id ="vitamin">0</ins> </p>
+                <p >FAT <ins id="fat">0</ins> g</p>
+                <p >VITAMIN <ins id ="vitamin">0</ins> mg</p>
                 </div>
                 <p style="margin-left:3%;" >TOTAL CALORIES: <ins id="calo">0</ins>  </p>
                 <p style ="margin-left:3%; display:inline-block" > TOTAL ITEMs: <ins id="num_item">0</ins> </p>
@@ -755,101 +748,112 @@
          
         </div>   <!--2center -->    
     
-            <div id="page_article"> 
+        <div id="page_article"> 
                 
-                    <p style="border: 1px solid sandybrown;margin-bottom: 0%;"> Articles </p>
-    
-                    <button style=""id="click_healthy1">Diet Tips</button>
-                    <button id ="click_healthy2">Healthy Eat</button> 
-                    <div class="healthy_tab" id = "healthy1"> 
-                        <table>
-    
-                            <tr>
-                                <th><a href="https://www.pharmacytimes.com/view/exercise-healthy-diet-in-midlife-may-prevent-serious-health-conditions-in-senior-years" target="_blank">Exercise, Healthy Diet in Midlife May Prevent Serious Health Conditions in Senior Years</a><br>
-                                Author: Jill Murphy <br>
-                                Description: The article discusses how eating healthy and exercising can lead to better health later in life. The article focuses mostly on cardiometabolic health in middle and old age. 
-                                </th>
-    
-                            </tr>
-    
-    
-                            <tr>
-                                <th><a href="https://abcnews.go.com/Health/obesity-rise-best-diet-tailored-genes-experts/story?id=76606570" target="_blank">With obesity on the rise, the best diet may be tailored to our genes, experts say</a><br>
-                                Author: Dr. L. Nedda Dastmalchi <br>
-                                Description: This article discusses nutrigenomics, which is focuses on creating diets more suited to a person's genetics. The hope is that people will be given more effective diets based on their genetics as this field grows. 
-                                </th>
-    
-                            </tr>
-    
-                            <tr>
-                                <th>Title <br>
-                                Author <br>
-                                Description: 
-                                </th>
-    
-                            </tr>
-    
-                            <tr>
-                                <th>Title <br>
-                                Author <br>
-                                Description: 
-                                </th>
-    
-                            </tr>
-    
-                            <tr>
-                                <th>Title <br>
-                                Author <br>
-                                Description: 
-                                </th>
-    
-                            </tr>
-    
-    
-                        </table>
-                    </div>
-                    <div class="healthy_tab" id="healthy2" style="display:none">
-                        <table>
-                            <tr>
-                                <th><a href="https://www.self.com/story/healthy-eating-and-food-access" target="_blank">We Can’t Talk About Healthy Eating Without Discussing Food Access</a><br>
-                                Author: Jessica Jones <br>
-                                Description: This article goes over the idea of what the main stream depicts healthy eating as rather than what Jones claims it should really mean. Jones also goes over the porblems of food access in America and how it can effect someone's eating habits. 
-                                </th>
-    
-                            </tr>
+            <p style="border: 1px solid sandybrown;margin-bottom: 0%;"> Articles </p>
 
-                            <tr> 
-                                <th><a href="https://www.eatthis.com/underrated-healthy-eating-tips/" target="_blank">6 Underrated Healthy Eating Tips That Actually Work</a><br>
-                                Author: Samantha Boesch<br>
-                                Description: This article gives six helpful tips on how to make healthy eating more accessable and manageable. 
-                                </th>
-    
-                            </tr>
+            <button style=""id="click_healthy1">Diet Tips</button>
+            <button id ="click_healthy2">Healthy Eat</button> 
+            <div class="healthy_tab" id = "healthy1"> 
+                <table>
 
-                            <tr>
-                                <th>Title <br>
-                                Author <br>
-                                Description:
-                                </th>
-    
-                            </tr>
+                    <tr>
+                        <th><a href="https://www.pharmacytimes.com/view/exercise-healthy-diet-in-midlife-may-prevent-serious-health-conditions-in-senior-years" target="_blank">Exercise, Healthy Diet in Midlife May Prevent Serious Health Conditions in Senior Years</a><br>
+                        Author: Jill Murphy <br>
+                        Description: The article discusses how eating healthy and exercising can lead to better health later in life. The article focuses mostly on cardiometabolic health in middle and old age. 
+                        </th>
 
-                            <tr>
-                                <th>Title <br>
-                                Author <br>
-                                Description: 
-                                </th>
-    
-                            </tr>
-    
-                        </table>
-    
-                    </div>
+                    </tr>
+
+
+                    <tr>
+                        <th><a href="https://abcnews.go.com/Health/obesity-rise-best-diet-tailored-genes-experts/story?id=76606570" target="_blank">With obesity on the rise, the best diet may be tailored to our genes, experts say</a><br>
+                        Author: Dr. L. Nedda Dastmalchi <br>
+                        Description: This article discusses nutrigenomics, which is focuses on creating diets more suited to a person's genetics. The hope is that people will be given more effective diets based on their genetics as this field grows. 
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <th><a href="https://www.medicalnewstoday.com/articles/too-much-salt" target="_blank">What is an excessive amount of dietary salt?</a><br>
+                        Author: Anna Smith<br>
+                        Description: The artilce discusses the balance on what a healthy amount of sodium is for a person's diet. The article also has many differnt sections it goes over on the benefits and detrements of sodium intake. 
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <th><a href="https://www.insider.com/how-to-enjoy-bread-healthy-diet-according-to-dietitians-2021-4" target="_blank">3 dietitians who eat bread every day say you shouldn't be afraid of the carb. Here's how to eat it without derailing your diet.</a><br>
+                        Author: Gabby Landsverk <br>
+                        Description: This article goes over how bread and carbs in general can fit into a healthy diet. The artilce also goes over the different ways to eat bread to be healthier. 
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <th><a href="https://foodtank.com/news/2021/04/a-plant-forward-diet-can-be-delicious-and-diverse/" target="_blank">A Plant-Forward Diet Can Be Delicious and Diverse</a><br>
+                        Author: Elena Seeley <br>
+                        Description: The artilce discusses how vegetables can be integrated more into a normal diet for most people. The bulk of the information is provided by chefs from East and South Asia. 
+                        </th>
+
+                    </tr>
+
+
+                </table>
             </div>
-        </div> <!-- 2 center + article -->
-       
+            <div class="healthy_tab" id="healthy2" style="display:none">
+                <table>
+                    <tr>
+                        <th><a href="https://www.self.com/story/healthy-eating-and-food-access" target="_blank">We Can’t Talk About Healthy Eating Without Discussing Food Access</a><br>
+                        Author: Jessica Jones <br>
+                        Description: This article goes over the idea of what the main stream depicts healthy eating as rather than what Jones claims it should really mean. Jones also goes over the porblems of food access in America and how it can effect someone's eating habits. 
+                        </th>
+
+                    </tr>
+
+                    <tr> 
+                        <th><a href="https://www.eatthis.com/underrated-healthy-eating-tips/" target="_blank">6 Underrated Healthy Eating Tips That Actually Work</a><br>
+                        Author: Samantha Boesch<br>
+                        Description: This article gives six helpful tips on how to make healthy eating more accessable and manageable. 
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <th><a href="https://www.medicalnewstoday.com/articles/unhealthy-fruits" target="_blank">Which fruits are better for you based on diet and health goals?</a><br>
+                        Author: Adrienne Seitz, MS, RD, LDN  <br>
+                        Description: This article goes over how the health bennefits of fruits effect different people, and that some fruits may not be as healthy as others. The article also lists commonly eaten fruits and shows their health statistics. 
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <th><a href="https://www.gobankingrates.com/saving-money/food/how-to-eat-healthy-on-a-budget/" target="_blank">26 Ways to Eat Healthy Without Breaking the Bank</a><br>
+                        Author: Karen Doyle <br>
+                        Description: This artilce goes over different ways to be able to eat healthy foods without spending too much money. The tips are broken up into different sections based on the grocery shopping process. 
+                        </th>
+
+                    </tr>
+
+                    <tr>
+                        <th><a href="https://www.insider.com/how-to-start-eating-healthy" target="_blank">6 easy ways to start eating healthy, according to dietitians</a><br>
+                        Author: Erin Heger <br>
+                        Description: This article goes over several tips provided to help someone start eating healthy. These tips are general ideas to consider when making or buying meals. 
+                        </th>
+
+                    </tr>
+
+                </table>
+
+            </div>
+    </div>
+</div> <!-- 2 center + article -->
+
+
+</div> <!-- 2 center + article   + search  -->       
     
-        </div> <!-- 2 center + article   + search  -->    
+    
+    
     
     
     
